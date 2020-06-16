@@ -9,3 +9,7 @@ This is a sample news app using kotlin multiplatform. App uses coroutines and fl
 ./gradlew podSpec
 ```
 
+## News API 
+```bash
+https://newsapi.org/
+```
