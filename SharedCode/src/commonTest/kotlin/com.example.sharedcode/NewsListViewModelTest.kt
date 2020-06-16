@@ -12,6 +12,7 @@ import kotlinx.coroutines.channels.ConflatedBroadcastChannel
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.asFlow
 import kotlinx.coroutines.flow.collect
+import kotlinx.coroutines.flow.first
 import kotlin.test.*
 
 
@@ -36,12 +37,13 @@ class NewsListViewModelTest {
     @Test
     fun `test action to results`() =
         runTest {
-            val state = newsListViewModel.observeState()
+
             newsListViewModel.sendEvent(NewsListAction.LoadNews)
-            state.collect {
-                assertTrue {it.newsList== newsList}
-            }
+
             repoBroadcastChannel.offer(Lce.Content(newsList))
+
+            val stateValue = newsListViewModel.observeState().first()
+            assertEquals(newsList, stateValue.newsList)
         }
 
 }
