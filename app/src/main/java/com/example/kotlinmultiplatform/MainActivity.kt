@@ -13,7 +13,7 @@ import com.example.sharedcode.news.NewsListViewModel
 
 class MainActivity : AppCompatActivity() {
     private val viewModel: NewsListViewModel = NewsListViewModel.create()
-    private val jokesAdapter by lazy { NewsListAdapter() }
+    private val newsListAdapter by lazy { NewsListAdapter() }
     private val newsListRv by lazy {
         findViewById<RecyclerView>(R.id.rv_news_list)
     }
@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        newsListRv.adapter = jokesAdapter
+        newsListRv.adapter = newsListAdapter
         viewModel.observeState().asLiveData().observe(this,
             Observer<NewsListState> {
                 when {
@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
                         errorTextView.visibility = View.GONE
                         newsListRv.visibility = View.VISIBLE
                         it.newsList?.let { newsList ->
-                            jokesAdapter.updateList(newsList.articles)
+                            newsListAdapter.updateList(newsList.articles)
                         }
 
                     }

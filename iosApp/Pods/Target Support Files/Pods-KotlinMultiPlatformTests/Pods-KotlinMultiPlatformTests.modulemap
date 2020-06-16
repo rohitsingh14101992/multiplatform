@@ -1,0 +1,6 @@
+framework module Pods_KotlinMultiPlatformTests {
+  umbrella header "Pods-KotlinMultiPlatformTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

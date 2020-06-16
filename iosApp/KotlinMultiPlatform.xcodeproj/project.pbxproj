@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01D40AB866DBE1A3C352E32D /* Pods_KotlinMultiPlatform_KotlinMultiPlatformUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E5BF0FEC76AC1B75377D78D /* Pods_KotlinMultiPlatform_KotlinMultiPlatformUITests.framework */; };
+		1854B255127550BA1CCA615C /* Pods_KotlinMultiPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B29A24B8F98E07153E06F6 /* Pods_KotlinMultiPlatform.framework */; };
+		8309C2CA083B154F02376D5B /* Pods_KotlinMultiPlatformTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B1E6D47BA162FAB870DC8F /* Pods_KotlinMultiPlatformTests.framework */; };
+		D29FD2C524976B540081BFAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FD2C424976B540081BFAC /* AppDelegate.swift */; };
+		D29FD2C724976B540081BFAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FD2C624976B540081BFAC /* SceneDelegate.swift */; };
+		D29FD2C924976B540081BFAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FD2C824976B540081BFAC /* ViewController.swift */; };
+		D29FD2CC24976B540081BFAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D29FD2CA24976B540081BFAC /* Main.storyboard */; };
+		D29FD2CE24976B570081BFAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D29FD2CD24976B570081BFAC /* Assets.xcassets */; };
+		D29FD2D124976B570081BFAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D29FD2CF24976B570081BFAC /* LaunchScreen.storyboard */; };
+		D29FD2DC24976B570081BFAC /* KotlinMultiPlatformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FD2DB24976B570081BFAC /* KotlinMultiPlatformTests.swift */; };
+		D29FD2E724976B570081BFAC /* KotlinMultiPlatformUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29FD2E624976B570081BFAC /* KotlinMultiPlatformUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D29FD2D824976B570081BFAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D29FD2B924976B540081BFAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D29FD2C024976B540081BFAC;
+			remoteInfo = KotlinMultiPlatform;
+		};
+		D29FD2E324976B570081BFAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D29FD2B924976B540081BFAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D29FD2C024976B540081BFAC;
+			remoteInfo = KotlinMultiPlatform;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B1E6D47BA162FAB870DC8F /* Pods_KotlinMultiPlatformTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KotlinMultiPlatformTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E5BF0FEC76AC1B75377D78D /* Pods_KotlinMultiPlatform_KotlinMultiPlatformUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KotlinMultiPlatform_KotlinMultiPlatformUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41633C649BCD6A875DBBBF44 /* Pods-KotlinMultiPlatform-KotlinMultiPlatformUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KotlinMultiPlatform-KotlinMultiPlatformUITests.release.xcconfig"; path = "Target Support Files/Pods-KotlinMultiPlatform-KotlinMultiPlatformUITests/Pods-KotlinMultiPlatform-KotlinMultiPlatformUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5C405B4C640886C65F1D88C1 /* Pods-KotlinMultiPlatformTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KotlinMultiPlatformTests.release.xcconfig"; path = "Target Support Files/Pods-KotlinMultiPlatformTests/Pods-KotlinMultiPlatformTests.release.xcconfig"; sourceTree = "<group>"; };
+		74EBFF2CB61FF86152823F01 /* Pods-KotlinMultiPlatform.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KotlinMultiPlatform.release.xcconfig"; path = "Target Support Files/Pods-KotlinMultiPlatform/Pods-KotlinMultiPlatform.release.xcconfig"; sourceTree = "<group>"; };
+		80B29A24B8F98E07153E06F6 /* Pods_KotlinMultiPlatform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KotlinMultiPlatform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		923E36FA9255BB79CD8EADFC /* Pods-KotlinMultiPlatform-KotlinMultiPlatformUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KotlinMultiPlatform-KotlinMultiPlatformUITests.debug.xcconfig"; path = "Target Support Files/Pods-KotlinMultiPlatform-KotlinMultiPlatformUITests/Pods-KotlinMultiPlatform-KotlinMultiPlatformUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABF17E02C17095B4487382A5 /* Pods-KotlinMultiPlatform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KotlinMultiPlatform.debug.xcconfig"; path = "Target Support Files/Pods-KotlinMultiPlatform/Pods-KotlinMultiPlatform.debug.xcconfig"; sourceTree = "<group>"; };
+		D29FD2C124976B540081BFAC /* KotlinMultiPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KotlinMultiPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29FD2C424976B540081BFAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D29FD2C624976B540081BFAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D29FD2C824976B540081BFAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D29FD2CB24976B540081BFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D29FD2CD24976B570081BFAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D29FD2D024976B570081BFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D29FD2D224976B570081BFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D29FD2D724976B570081BFAC /* KotlinMultiPlatformTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KotlinMultiPlatformTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29FD2DB24976B570081BFAC /* KotlinMultiPlatformTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KotlinMultiPlatformTests.swift; sourceTree = "<group>"; };
+		D29FD2DD24976B570081BFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D29FD2E224976B570081BFAC /* KotlinMultiPlatformUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KotlinMultiPlatformUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29FD2E624976B570081BFAC /* KotlinMultiPlatformUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KotlinMultiPlatformUITests.swift; sourceTree = "<group>"; };
+		D29FD2E824976B570081BFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCDC04F4C10663DDAAD425AA /* Pods-KotlinMultiPlatformTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KotlinMultiPlatformTests.debug.xcconfig"; path = "Target Support Files/Pods-KotlinMultiPlatformTests/Pods-KotlinMultiPlatformTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D29FD2BE24976B540081BFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1854B255127550BA1CCA615C /* Pods_KotlinMultiPlatform.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29FD2D424976B570081BFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8309C2CA083B154F02376D5B /* Pods_KotlinMultiPlatformTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29FD2DF24976B570081BFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D40AB866DBE1A3C352E32D /* Pods_KotlinMultiPlatform_KotlinMultiPlatformUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24D9C93FD8095C80B1F6B47E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80B29A24B8F98E07153E06F6 /* Pods_KotlinMultiPlatform.framework */,
+				3E5BF0FEC76AC1B75377D78D /* Pods_KotlinMultiPlatform_KotlinMultiPlatformUITests.framework */,
+				02B1E6D47BA162FAB870DC8F /* Pods_KotlinMultiPlatformTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB856F75DCE85829AB9CAD8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABF17E02C17095B4487382A5 /* Pods-KotlinMultiPlatform.debug.xcconfig */,
+				74EBFF2CB61FF86152823F01 /* Pods-KotlinMultiPlatform.release.xcconfig */,
+				923E36FA9255BB79CD8EADFC /* Pods-KotlinMultiPlatform-KotlinMultiPlatformUITests.debug.xcconfig */,
+				41633C649BCD6A875DBBBF44 /* Pods-KotlinMultiPlatform-KotlinMultiPlatformUITests.release.xcconfig */,
+				DCDC04F4C10663DDAAD425AA /* Pods-KotlinMultiPlatformTests.debug.xcconfig */,
+				5C405B4C640886C65F1D88C1 /* Pods-KotlinMultiPlatformTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D29FD2B824976B540081BFAC = {
+			isa = PBXGroup;
+			children = (
+				D29FD2C324976B540081BFAC /* KotlinMultiPlatform */,
+				D29FD2DA24976B570081BFAC /* KotlinMultiPlatformTests */,
+				D29FD2E524976B570081BFAC /* KotlinMultiPlatformUITests */,
+				D29FD2C224976B540081BFAC /* Products */,
+				CB856F75DCE85829AB9CAD8A /* Pods */,
+				24D9C93FD8095C80B1F6B47E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D29FD2C224976B540081BFAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D29FD2C124976B540081BFAC /* KotlinMultiPlatform.app */,
+				D29FD2D724976B570081BFAC /* KotlinMultiPlatformTests.xctest */,
+				D29FD2E224976B570081BFAC /* KotlinMultiPlatformUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D29FD2C324976B540081BFAC /* KotlinMultiPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				D29FD2C424976B540081BFAC /* AppDelegate.swift */,
+				D29FD2C624976B540081BFAC /* SceneDelegate.swift */,
+				D29FD2C824976B540081BFAC /* ViewController.swift */,
+				D29FD2CA24976B540081BFAC /* Main.storyboard */,
+				D29FD2CD24976B570081BFAC /* Assets.xcassets */,
+				D29FD2CF24976B570081BFAC /* LaunchScreen.storyboard */,
+				D29FD2D224976B570081BFAC /* Info.plist */,
+			);
+			path = KotlinMultiPlatform;
+			sourceTree = "<group>";
+		};
+		D29FD2DA24976B570081BFAC /* KotlinMultiPlatformTests */ = {
+			isa = PBXGroup;
+			children = (
+				D29FD2DB24976B570081BFAC /* KotlinMultiPlatformTests.swift */,
+				D29FD2DD24976B570081BFAC /* Info.plist */,
+			);
+			path = KotlinMultiPlatformTests;
+			sourceTree = "<group>";
+		};
+		D29FD2E524976B570081BFAC /* KotlinMultiPlatformUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D29FD2E624976B570081BFAC /* KotlinMultiPlatformUITests.swift */,
+				D29FD2E824976B570081BFAC /* Info.plist */,
+			);
+			path = KotlinMultiPlatformUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D29FD2C024976B540081BFAC /* KotlinMultiPlatform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D29FD2EB24976B570081BFAC /* Build configuration list for PBXNativeTarget "KotlinMultiPlatform" */;
+			buildPhases = (
+				0CCCF852D483573874BF1285 /* [CP] Check Pods Manifest.lock */,
+				D29FD2BD24976B540081BFAC /* Sources */,
+				D29FD2BE24976B540081BFAC /* Frameworks */,
+				D29FD2BF24976B540081BFAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KotlinMultiPlatform;
+			productName = KotlinMultiPlatform;
+			productReference = D29FD2C124976B540081BFAC /* KotlinMultiPlatform.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D29FD2D624976B570081BFAC /* KotlinMultiPlatformTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D29FD2EE24976B570081BFAC /* Build configuration list for PBXNativeTarget "KotlinMultiPlatformTests" */;
+			buildPhases = (
+				17BF58721F6C1BB8F6F70EE1 /* [CP] Check Pods Manifest.lock */,
+				D29FD2D324976B570081BFAC /* Sources */,
+				D29FD2D424976B570081BFAC /* Frameworks */,
+				D29FD2D524976B570081BFAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D29FD2D924976B570081BFAC /* PBXTargetDependency */,
+			);
+			name = KotlinMultiPlatformTests;
+			productName = KotlinMultiPlatformTests;
+			productReference = D29FD2D724976B570081BFAC /* KotlinMultiPlatformTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D29FD2E124976B570081BFAC /* KotlinMultiPlatformUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D29FD2F124976B570081BFAC /* Build configuration list for PBXNativeTarget "KotlinMultiPlatformUITests" */;
+			buildPhases = (
+				8B7C9D1C082682ED4C17F8A1 /* [CP] Check Pods Manifest.lock */,
+				D29FD2DE24976B570081BFAC /* Sources */,
+				D29FD2DF24976B570081BFAC /* Frameworks */,
+				D29FD2E024976B570081BFAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D29FD2E424976B570081BFAC /* PBXTargetDependency */,
+			);
+			name = KotlinMultiPlatformUITests;
+			productName = KotlinMultiPlatformUITests;
+			productReference = D29FD2E224976B570081BFAC /* KotlinMultiPlatformUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D29FD2B924976B540081BFAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Rohit Singh";
+				TargetAttributes = {
+					D29FD2C024976B540081BFAC = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					D29FD2D624976B570081BFAC = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = D29FD2C024976B540081BFAC;
+					};
+					D29FD2E124976B570081BFAC = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = D29FD2C024976B540081BFAC;
+					};
+				};
+			};
+			buildConfigurationList = D29FD2BC24976B540081BFAC /* Build configuration list for PBXProject "KotlinMultiPlatform" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D29FD2B824976B540081BFAC;
+			productRefGroup = D29FD2C224976B540081BFAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D29FD2C024976B540081BFAC /* KotlinMultiPlatform */,
+				D29FD2D624976B570081BFAC /* KotlinMultiPlatformTests */,
+				D29FD2E124976B570081BFAC /* KotlinMultiPlatformUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D29FD2BF24976B540081BFAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29FD2D124976B570081BFAC /* LaunchScreen.storyboard in Resources */,
+				D29FD2CE24976B570081BFAC /* Assets.xcassets in Resources */,
+				D29FD2CC24976B540081BFAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29FD2D524976B570081BFAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29FD2E024976B570081BFAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CCCF852D483573874BF1285 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KotlinMultiPlatform-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17BF58721F6C1BB8F6F70EE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KotlinMultiPlatformTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B7C9D1C082682ED4C17F8A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KotlinMultiPlatform-KotlinMultiPlatformUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D29FD2BD24976B540081BFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29FD2C924976B540081BFAC /* ViewController.swift in Sources */,
+				D29FD2C524976B540081BFAC /* AppDelegate.swift in Sources */,
+				D29FD2C724976B540081BFAC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29FD2D324976B570081BFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29FD2DC24976B570081BFAC /* KotlinMultiPlatformTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29FD2DE24976B570081BFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29FD2E724976B570081BFAC /* KotlinMultiPlatformUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D29FD2D924976B570081BFAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D29FD2C024976B540081BFAC /* KotlinMultiPlatform */;
+			targetProxy = D29FD2D824976B570081BFAC /* PBXContainerItemProxy */;
+		};
+		D29FD2E424976B570081BFAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D29FD2C024976B540081BFAC /* KotlinMultiPlatform */;
+			targetProxy = D29FD2E324976B570081BFAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D29FD2CA24976B540081BFAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D29FD2CB24976B540081BFAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D29FD2CF24976B570081BFAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D29FD2D024976B570081BFAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D29FD2E924976B570081BFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D29FD2EA24976B570081BFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D29FD2EC24976B570081BFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABF17E02C17095B4487382A5 /* Pods-KotlinMultiPlatform.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KotlinMultiPlatform/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.KotlinMultiPlatform;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D29FD2ED24976B570081BFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74EBFF2CB61FF86152823F01 /* Pods-KotlinMultiPlatform.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KotlinMultiPlatform/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.KotlinMultiPlatform;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D29FD2EF24976B570081BFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCDC04F4C10663DDAAD425AA /* Pods-KotlinMultiPlatformTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KotlinMultiPlatformTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.KotlinMultiPlatformTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KotlinMultiPlatform.app/KotlinMultiPlatform";
+			};
+			name = Debug;
+		};
+		D29FD2F024976B570081BFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C405B4C640886C65F1D88C1 /* Pods-KotlinMultiPlatformTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KotlinMultiPlatformTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.KotlinMultiPlatformTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KotlinMultiPlatform.app/KotlinMultiPlatform";
+			};
+			name = Release;
+		};
+		D29FD2F224976B570081BFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 923E36FA9255BB79CD8EADFC /* Pods-KotlinMultiPlatform-KotlinMultiPlatformUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KotlinMultiPlatformUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.KotlinMultiPlatformUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KotlinMultiPlatform;
+			};
+			name = Debug;
+		};
+		D29FD2F324976B570081BFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41633C649BCD6A875DBBBF44 /* Pods-KotlinMultiPlatform-KotlinMultiPlatformUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KotlinMultiPlatformUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.KotlinMultiPlatformUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KotlinMultiPlatform;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D29FD2BC24976B540081BFAC /* Build configuration list for PBXProject "KotlinMultiPlatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29FD2E924976B570081BFAC /* Debug */,
+				D29FD2EA24976B570081BFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D29FD2EB24976B570081BFAC /* Build configuration list for PBXNativeTarget "KotlinMultiPlatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29FD2EC24976B570081BFAC /* Debug */,
+				D29FD2ED24976B570081BFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D29FD2EE24976B570081BFAC /* Build configuration list for PBXNativeTarget "KotlinMultiPlatformTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29FD2EF24976B570081BFAC /* Debug */,
+				D29FD2F024976B570081BFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D29FD2F124976B570081BFAC /* Build configuration list for PBXNativeTarget "KotlinMultiPlatformUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29FD2F224976B570081BFAC /* Debug */,
+				D29FD2F324976B570081BFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D29FD2B924976B540081BFAC /* Project object */;
+}

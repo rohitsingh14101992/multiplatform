@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_KotlinMultiPlatform_KotlinMultiPlatformUITests : NSObject
+@end
+@implementation PodsDummy_Pods_KotlinMultiPlatform_KotlinMultiPlatformUITests
+@end

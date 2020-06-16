@@ -13,6 +13,6 @@ class NewsApiImpl(private val httpClient: HttpClient) : NewsApi {
 
     override suspend fun getNewsSource(): NewsList  =
         httpClient.get<NewsList>(
-                "https://newsapi.org/v2/top-headlines?country=in&apiKey=1f5aa4d5dbd04f3e8d1c0cb592754dc5")
+                "https://newsapi.org/v2/top-headlines?country=in&apiKey=")
 
 }
